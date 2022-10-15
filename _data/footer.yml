@@ -7,14 +7,14 @@ contact:
 
 connect:
   - name: Facebook
-    url: "https://it-it.facebook.com/aisf.fisica/"
+    url: "https://www.facebook.com/AISFPadova/"
     facebook: true
   - name: Instagram
-    url: "https://www.instagram.com/aisf_fisica/"
+    url: "https://www.instagram.com/aisf_padova/"
     instagram: true
-  - name: Twitter
-    url: "https://twitter.com/aisf_fisica"
-    twitter: true
+  #- name: Twitter
+  #  url: "https://twitter.com/aisf_fisica"
+  #  twitter: true
 
 creator:
   - name: Roberto Ciccarelli
