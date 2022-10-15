@@ -1,0 +1,26 @@
+# Site settings
+title: "Titolo sito"
+description: "Descrizione sito"
+destination: ../site/
+locale: "it"
+
+# Build settings
+markdown: kramdown
+future: true
+permalink: /blog/:year/:month/:day/:title/
+destination: _site
+
+
+#facebook
+fb_admins:
+fb_appid:
+
+#Collections
+collections:
+  events:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+#plugins:
+# - jekyll-redirect-from
+# - jekyll-sitemap

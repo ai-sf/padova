@@ -1,0 +1,27 @@
+<ul class="right hide-on-med-and-down">
+  {% for item in include.nav %}
+  {% assign itemurl = item.url | remove: '/' %}
+  {% if item.subitems %}
+  <li>
+    <a class="dropdown-button" href="{{ site.url }}/{{ item.url }}" data-target="dropdown-{{ item.slug }}">{{ item.text }}<i class="material-icons right">arrow_drop_down</i></a>
+  </li>
+  {% else %}
+    <li {% if itemurl  == navurl %} class="active" {% endif %}>
+        <a
+           {% if item.url contains "http://" %}
+              href="{{ item.url }}" target="_blank"
+           {% elsif item.url contains "https://" %}
+              href="{{ item.url }}" target="_blank"
+           {% else %}
+              href="{{ site.url }}/{{ item.url }}"
+           {% endif %}
+           >
+           {% if item.icon %}
+            <i class="material-icons left">{{item.icon}}</i>
+            {% endif %}
+                {{ item.text }}
+        </a>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>

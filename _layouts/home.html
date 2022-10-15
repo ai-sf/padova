@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+  {% include head.html %}
+  <body>
+      {% assign navurl = page.url | remove: 'index.html' | remove: '/'%}
+      <nav class="custom1" role="navigation" style="z-index: 999; position:absolute;">
+          <div class="nav-wrapper container">
+              <a href="#" data-target="nav-mobile" class="button-collapse hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
+              <a id="logo-container" href="{{ site.url }}/index.html" class="brand-logo">{{ site.data.generic.title }}</a>
+                    {% include nav.html nav=site.data.menu%}
+          </div>
+      </nav>
+      {% include mobile-nav.html nav=site.data.menu%}
+
+
+        {{ content }}
+    {% include footer.html %}
+  </body>
+  {% include scripts.html %}
+</html>

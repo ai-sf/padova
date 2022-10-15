@@ -1,0 +1,19 @@
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
+<script src="{{ site.url }}/js/materialize.min.js"></script>
+<script src="{{ site.url }}/js/init.js"></script>
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    type="text/javascript"></script>
+
+{% if page.script %}
+<script src="{{ site.url }}/js/{{page.script}}"></script>
+{% endif %}

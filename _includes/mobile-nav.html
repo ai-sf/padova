@@ -1,0 +1,34 @@
+<ul id="nav-mobile" class="sidenav">
+    <li class="logo"><a id="mobile-logo-container" href="{{ site.url }}"><object id="front-page-logo" type="image/png" style="width:64px" data="{{ site.url }}/img/logo.png">Your browser does not support PNG</object></a></li>
+    {% for item in include.nav %}
+        {% if item.subitems %}
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+              <a class="collapsible-header">{{ item.text }}</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+            {% for subitem in item.subitems %}
+                <li><a href="{{ site.url }}/{{ subitem.url }}">{{ subitem.text }}</a></li>
+            {% endfor %}
+              </ul>
+            </div>
+          </li>
+        </ul>
+        </li>
+        {% else %}
+        <li><a
+           {% if item.url contains "http://" %}
+              href="{{ item.url }}" target="_blank"
+           {% elsif item.url contains "https://" %}
+              href="{{ item.url }}" target="_blank"
+           {% else %}
+              href="{{ site.url }}/{{ item.url }}"
+           {% endif %}
+           >
+          {{ item.text }}
+        </a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
