@@ -1,27 +1,81 @@
-<ul class="right hide-on-med-and-down">
-   {% for item in include.nav %}
-   {% assign itemurl = item.url | remove: '/' %}
-   {% if item.subitems %}
-   <li>
-     <a class="dropdown-button" href="{{ site.url }}/{{ item.url }}" data-target="dropdown-{{ item.slug }}">{{ item.text }}<i class="material-icons right">arrow_drop_down</i></a>
-   </li>
-   {% else %}
-     <li {% if itemurl  == navurl %} class="active" {% endif %}>
-         <a
-            {% if item.url contains "http://" %}
-               href="{{ item.url }}" target="_blank"
-            {% elsif item.url contains "https://" %}
-               href="{{ item.url }}" target="_blank"
-            {% else %}
-               href="{{ site.url }}/{{ item.url }}"
+{% assign navurl = page.url | remove: 'index.html' %}
+{% for item in include.nav %}
+    {% if item.subitems %}
+    <ul id="dropdown-{{ item.slug }}" class="dropdown-content">
+      <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+      {% for subitem in item.subitems %}
+      <li><a href="{{ site.url }}/{{ subitem.url }}">{{ subitem.text }}</a></li>
+      {% endfor %}
+    </ul>
+{% endif %}
+{% endfor %}
+
+<nav class="custom1" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="#" data-activates="nav-mobile" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
+        <a id="logo-container" href="{{ site.url }}/index.html" class="brand-logo">{{ site.data.generic.title }}</a>
+
+        <ul class="right hide-on-med-and-down">
+          {% for item in include.nav %}
+          {% if item.subitems %}
+          <li>
+            <a class="dropdown-button" href="{{ site.url }}/{{ item.url }}" data-activates="dropdown-{{ item.slug }}">{{ item.text }}<i class="material-icons right">arrow_drop_down</i></a>
+          </li>
+          {% else %}
+            <li>
+                <a 
+                   {% if item.url contains "http://" %}
+                      href="{{ item.url }}"
+                   {% else %}
+                      href="{{ site.url }}/{{ item.url }}"
+                   {% endif %}
+                   >
+                    {% if item.url == navurl %}
+                        <b>{{ item.text }}</b>
+                    {% else %}
+                        {{ item.text }}
+                    {% endif %}
+                </a>
+            </li>
             {% endif %}
-            >
-            {% if item.icon %}
-             <i class="material-icons left">{{item.icon}}</i>
-             {% endif %}
-                 {{ item.text }}
-         </a>
-     </li>
-     {% endif %}
- {% endfor %}
- </ul>
+        {% endfor %}
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li class="logo"><a id="mobile-logo-container" href="{{ site.url }}"><object id="front-page-logo" type="image/png" style="width:64px" data="{{ site.url }}/img/logo.png">Your browser does not support PNG</object></a></li>
+            {% for item in include.nav %}
+                {% if item.subitems %}
+                <li class="no-padding">
+                <ul class="collapsible collapsible-accordion">
+                  <li>
+                      <a class="collapsible-header">{{ item.text }}</a>
+                    <div class="collapsible-body">
+                      <ul>
+                        <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+                    {% for subitem in item.subitems %}
+                        <li><a href="{{ site.url }}/{{ subitem.url }}">{{ subitem.text }}</a></li>
+                    {% endfor %}
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+                </li>
+                {% else %}
+                <li><a 
+                   {% if item.url contains "http://" %}
+                      href="{{ item.url }}"
+                   {% else %}
+                      href="{{ site.url }}/{{ item.url }}"
+                   {% endif %}
+                   >
+                  {% if item.url == navurl %}
+                  {{ item.text }}
+                  {% else %}
+                  {{ item.text }}
+                  {% endif %}
+                </a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
