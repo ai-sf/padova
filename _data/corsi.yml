@@ -1,0 +1,58 @@
+sections:
+  - title: "Corso LaTeX"
+    text: "---"
+    downloads:
+      - text: "---"
+        urls: 
+        - name: "---"
+          url: "---"
+      - text: "Lezione 1 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"
+      - text: "Lezione 2 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"
+      - text: "Lezione 3 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"
+        
+  - title: "Corso Python"
+    text: "---"
+    downloads:
+      - text: "---"
+        urls: 
+        - name: "---"
+          url: "---"
+      - text: "Lezione 1 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"
+      - text: "Lezione 2 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"
+      - text: "Lezione 3 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"
+      - text: "Lezione 4 - ---"
+        urls: 
+        - name: "---"
+          url: "---.pdf"
+        - name: "---"
+          url: "---.pdf"

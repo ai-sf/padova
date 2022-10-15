@@ -1,0 +1,36 @@
+---
+layout: page
+title: Corsi
+---
+
+{% for section in site.data.corsi.sections %}
+<div class="section">
+  <div class="row">
+    <div class="col s12">
+      <h3>{{section.title}} </h3>
+      <p>{{ section.text }}</p>
+      {% if section.downloads %}
+      <ul class="collection">
+        {% for download in section.downloads %}
+        <li class="row valign-wrapper black-text collection-item">
+          {% assign width = download.urls | size | times: 2%}
+          <div class="col l{{12 | minus: width}} s12"> {{ download.text}}</div>
+          {% if download%}
+          <div class="col l{{width}} s12 right-align">
+            {% for file in download.urls %}
+            <a class="chip custom2 white-text" href="{{site.url}}/downloads/{{file.url}}"
+              style="display: inline-flex; align-items: center; margin:5px 0px;">
+              <i class="material-icons" style="margin-right: 0.2em; font-size: 12pt">file_download</i>
+              {{file.name}}
+            </a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
