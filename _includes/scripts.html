@@ -1,6 +1,10 @@
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="{{ root_url }}/js/materialize.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
+<script src="{{ site.url }}/js/materialize.min.js"></script>
+<script src="{{ site.url }}/js/init.js"></script>
 
+{% if page.script %}
+<script src="{{ site.url }}/js/{{page.script}}"></script>
+{% endif %}
 
 <script> // Slider
   $(document).ready(function(){

@@ -1,6 +1,7 @@
 # Site settings
 title: "Titolo sito"
 description: "Descrizione sito"
+url: "https://ai-sf.it/padova"
 destination: ../site/
 locale: "it"
 
@@ -22,5 +23,5 @@ collections:
     permalink: /:categories/:year/:month/:day/:title/
 
 #plugins:
-# - jekyll-redirect-from
-# - jekyll-sitemap
+  #- jekyll-redirect-from
+  #- jekyll-sitemap
