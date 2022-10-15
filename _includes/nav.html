@@ -6,7 +6,7 @@
     <a class="dropdown-button" href="{{ site.url }}/{{ item.url }}" data-target="dropdown-{{ item.slug }}">{{ item.text }}<i class="material-icons right">arrow_drop_down</i></a>
   </li>
   {% else %}
-    <li {% if itemurl  == navurl %} class="active" {% endif %}>
+    <li {% if itemurl == navurl %} class="active" {% endif %}>
         <a
            {% if item.url contains "http://" %}
               href="{{ item.url }}" target="_blank"
