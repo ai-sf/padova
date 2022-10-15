@@ -1,19 +1,27 @@
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
-<script src="{{ site.url }}/js/materialize.min.js"></script>
-<script src="{{ site.url }}/js/init.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="{{ root_url }}/js/materialize.min.js"></script>
 
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
+<script> // Slider
+  $(document).ready(function(){
+  $('.slider').slider({full_width: false});
   });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    type="text/javascript"></script>
-
-{% if page.script %}
-<script src="{{ site.url }}/js/{{page.script}}"></script>
-{% endif %}
+<script> // Initialize collapse button
+  $(document).ready(function(){
+  $('.sidenav').sidenav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+      $('.carousel').carousel();
+  });
+</script>

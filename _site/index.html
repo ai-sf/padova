@@ -45,137 +45,120 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    
+      
 
-    
+      <nav class="custom1" role="navigation">
+          <div class="nav-wrapper container">
+              <a href="#" data-target="nav-mobile" class="button-collapse hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
+              <a id="logo-container" href="http://localhost:4000/index.html" class="brand-logo">AISF Padova</a>
+                    <ul id="nav-mobile" class="sidenav">
+  <li class="logo"><a id="mobile-logo-container" href="http://localhost:4000"><object id="front-page-logo" type="image/png" style="width:64px" data="http://localhost:4000/img/logo.png">Your browser does not support PNG</object></a></li>
+  
+      
+      <li><a
+         
+            href="http://localhost:4000/eventi"
+         
+         >
+        Eventi
+      </a></li>
+      
+  
+      
+      <li><a
+         
+            href="http://localhost:4000/corsi"
+         
+         >
+        Corsi
+      </a></li>
+      
+  
+      
+      <li><a
+         
+            href="http://localhost:4000/people"
+         
+         >
+        Chi siamo
+      </a></li>
+      
+  
+      
+      <li><a
+         
+            href="https://www.ai-sf.it" target="_blank"
+         
+         >
+        AISF
+      </a></li>
+      
+  
+</ul>
 
-    
+                    <ul class="right hide-on-med-and-down">
+   
+   
+   
+     <li >
+         <a
+            
+               href="http://localhost:4000/eventi"
+            
+            >
+            
+                 Eventi
+         </a>
+     </li>
+     
+ 
+   
+   
+     <li >
+         <a
+            
+               href="http://localhost:4000/corsi"
+            
+            >
+            
+                 Corsi
+         </a>
+     </li>
+     
+ 
+   
+   
+     <li >
+         <a
+            
+               href="http://localhost:4000/people"
+            
+            >
+            
+                 Chi siamo
+         </a>
+     </li>
+     
+ 
+   
+   
+     <li >
+         <a
+            
+               href="https://www.ai-sf.it" target="_blank"
+            
+            >
+            
+                 AISF
+         </a>
+     </li>
+     
+ 
+ </ul>
 
-    
-
-    
-
-
-<nav class="custom1" role="navigation">
-    <div class="nav-wrapper container">
-        <a href="#" data-activates="nav-mobile" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
-        <a id="logo-container" href="http://localhost:4000/index.html" class="brand-logo">AISF Padova</a>
-
-        <ul class="right hide-on-med-and-down">
-          
-          
-            <li>
-                <a 
-                   
-                      href="http://localhost:4000/eventi"
-                   
-                   >
-                    
-                        Eventi
-                    
-                </a>
-            </li>
-            
-        
-          
-            <li>
-                <a 
-                   
-                      href="http://localhost:4000/corsi"
-                   
-                   >
-                    
-                        Corsi
-                    
-                </a>
-            </li>
-            
-        
-          
-            <li>
-                <a 
-                   
-                      href="http://localhost:4000/people"
-                   
-                   >
-                    
-                        Chi siamo
-                    
-                </a>
-            </li>
-            
-        
-          
-            <li>
-                <a 
-                   
-                      href="http://localhost:4000/https://www.ai-sf.it"
-                   
-                   >
-                    
-                        AISF
-                    
-                </a>
-            </li>
-            
-        
-        </ul>
-
-        <ul id="nav-mobile" class="side-nav">
-            <li class="logo"><a id="mobile-logo-container" href="http://localhost:4000"><object id="front-page-logo" type="image/png" style="width:64px" data="http://localhost:4000/img/logo.png">Your browser does not support PNG</object></a></li>
-            
-                
-                <li><a 
-                   
-                      href="http://localhost:4000/eventi"
-                   
-                   >
-                  
-                  Eventi
-                  
-                </a></li>
-                
-            
-                
-                <li><a 
-                   
-                      href="http://localhost:4000/corsi"
-                   
-                   >
-                  
-                  Corsi
-                  
-                </a></li>
-                
-            
-                
-                <li><a 
-                   
-                      href="http://localhost:4000/people"
-                   
-                   >
-                  
-                  Chi siamo
-                  
-                </a></li>
-                
-            
-                
-                <li><a 
-                   
-                      href="http://localhost:4000/https://www.ai-sf.it"
-                   
-                   >
-                  
-                  AISF
-                  
-                </a></li>
-                
-            
-        </ul>
-    </div>
-</nav>
-        Ciao Padova!
+          </div>
+      </nav>
+    Ciao Padova!
 
 
     <style>
@@ -229,21 +212,31 @@
   </div>
 </footer>
   </body>
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
-<script src="http://localhost:4000/js/materialize.min.js"></script>
-<script src="http://localhost:4000/js/init.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="/js/materialize.min.js"></script>
 
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
+<script> // Slider
+  $(document).ready(function(){
+  $('.slider').slider({full_width: false});
   });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    type="text/javascript"></script>
-
-
+<script> // Initialize collapse button
+  $(document).ready(function(){
+  $('.sidenav').sidenav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+      $('.carousel').carousel();
+  });
+</script>
 </html>
