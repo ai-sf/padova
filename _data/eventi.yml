@@ -1,6 +1,6 @@
 sections:
   - events:
-    - image: "---.jpg"
+    - image: ".jpg"
       title: "Coming Soon"
       text: "---"
       link: "---"
