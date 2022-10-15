@@ -34,9 +34,9 @@
   </div>
   <div class="footer-copyright">
     <div class="container">
-      Built with Jekyll and materializecss by
+      Built with Jekyll by
       {% for item in site.data.footer.creator%}
-      <a class="white-text text-accent-3" href="mailto:{{ item.mail }}">{{ item.name }}</a>{% if forloop.last %}.{% else
+    </a>{{ item.name }}</a>{% if forloop.last %}.{% else
       %},{% endif %}
       {% endfor %}
     </div>
