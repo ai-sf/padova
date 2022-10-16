@@ -5,7 +5,7 @@
       <li class="no-padding">
       <ul class="collapsible collapsible-accordion">
         <li>
-            <a class="collapsible-header">{{ item.text }}</a>
+          <a class="collapsible-header">{{ item.text }}</a>
           <div class="collapsible-body">
             <ul>
               <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
@@ -19,15 +19,15 @@
       </li>
       {% else %}
       <li><a
-         {% if item.url contains "http://" %}
+          {% if item.url contains "http://" %}
             href="{{ item.url }}" target="_blank"
-         {% elsif item.url contains "https://" %}
+          {% elsif item.url contains "https://" %}
             href="{{ item.url }}" target="_blank"
-         {% else %}
+          {% else %}
             href="{{ site.url }}/{{ item.url }}"
-         {% endif %}
-         >
-        {{ item.text }}
+          {% endif %}
+          > 
+          {{ item.text }}
       </a></li>
       {% endif %}
   {% endfor %}
