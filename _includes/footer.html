@@ -5,37 +5,34 @@
 <footer class="page-footer custom1">
   <div class="container">
     <div class="row">
-      <div class="col l8 m6 s12">
+      <div class="col l7 m6 s12">
         <h5 class="white-text">{{ site.data.footer.title }}</h5>
         <p class="grey-text text-lighten-4">{{ site.data.footer.descr }}</p>
       </div>
       <div class="col l2 m6 s6">
-        <h5 class="white-text">Contatti</h5>
+        <h5 class="white-text">Contact</h5>
         <ul>
         {% for item in site.data.footer.contact %}
       	  <li><a class="white-text" href="mailto:{{ item.mail }}">{{ item.name }}</a></li>
         {% endfor %}
         </ul>
       </div>
-      <div class="col l2 m6 s6">
-        <h5 class="white-text">Social</h5>
+      <div class="col l3 m6 s6">
+        <h5 class="white-text">Connect</h5>
         <ul>
           {% for item in site.data.footer.connect %}
-	        <li>
-            <a class="white-text" href="{{ item.url }}">{{ item.name}}</a>
+          <li>
+            {% if item.facebook %}
+            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/fb_logo.png"></a>
+            {% elsif item.instagram %}
+            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/insta_logo.png"></a>
+            {% endif %}
           </li>
-	        {% endfor %}
+          {% endfor %}
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
-    <div class="container">
-      Built by
-      {% for item in site.data.footer.creator%}
-    </a>{{ item.name }}</a>{% if forloop.last %}.{% else
-      %},{% endif %}
-      {% endfor %}
-    </div>
   </div>
 </footer>
