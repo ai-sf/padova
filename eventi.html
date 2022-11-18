@@ -5,13 +5,13 @@ title: Eventi
 
 {% for section in site.data.eventi.sections %}
 <div class="section">
-{% if section.events %}
 <div class="row">
-  <div class="col s12 m6">
+<div class="col s12 m6">
+{% if section.events %}
   {% for event in section.events %}
     <div class="card">
       <div class="card-image">
-        <img src={{ event.image }}>
+        <img src="{{ site.url }}/{{ event.image }}">
         <span class="card-title">{{ event.title }}</span>
       </div>
       <div class="card-content">
@@ -21,8 +21,8 @@ title: Eventi
         <a href={{ event.link }}>{{ event.linktxt }}</a>
       </div>
   {% endfor %}
-  </div>
-</div>
 {% endif %}
+</div>
+</div>
 </div>
 {% endfor %}
