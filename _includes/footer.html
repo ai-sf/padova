@@ -22,9 +22,7 @@
         <ul>
           {% for item in site.data.footer.connect %}
           <li>
-            {% if item.facebook %}
-            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/fb_logo.png"></a>
-            {% elsif item.instagram %}
+            {% if item.instagram %}
             <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/insta_logo.png"></a>
             {% endif %}
           </li>

@@ -1,30 +1,20 @@
 sections:
   - title: "Corso LaTeX"
-    text: "---"
+    text: "Le lezioni si terranno nei giorni indicati in LUF1 alle ore 16:30."
     downloads:
-      - text: "---"
+      - text: "Formattazione, Tabelle e Immagini - 29/11/2022"
         urls: 
-        - name: "---"
+        - name: "Teoria"
           url: "---"
-      - text: "Lezione 1 - ---"
+      - text: "Formule Matematiche, Grafici e Mappe - 02/12/2022"
         urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
-      - text: "Lezione 2 - ---"
+        - name: "Teoria"
+          url: "---"
+      - text: "Speciale Tesi: Diapositive e Bibliografia - 06/12/2023"
         urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
-      - text: "Lezione 3 - ---"
-        urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
-        
+        - name: "Teoria"
+          url: "---"
+
   - title: "Corso Python"
     text: "---"
     downloads:
