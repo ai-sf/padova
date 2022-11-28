@@ -5,11 +5,11 @@ sections:
       - text: "Formattazione, Tabelle e Immagini - 29/11/2022"
         urls: 
         - name: "Teoria"
-          url: "---"
+          url: lezione1latex.tex
       - text: "Formule Matematiche, Grafici e Mappe - 02/12/2022"
         urls: 
         - name: "Teoria"
-          url: "---"
+          url: lezione2latex.tex
       - text: "Speciale Tesi: Diapositive e Bibliografia - 06/12/2023"
         urls: 
         - name: "Teoria"

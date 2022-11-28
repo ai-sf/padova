@@ -1,0 +1,196 @@
+\documentclass[a4paper, 12pt]{article} % report, book, letter
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{float}
+
+\graphicspath{{images/}}
+\renewcommand{\contentsname}{Indice}
+
+\title{Esempio di Documento}
+\author{Mario Rossi}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents % \renewcommand{\contentsname}{Indice}
+\newpage
+
+\section{Esempio di sezione}
+Questa è una frase. \\
+Questa è un'altra frase.
+
+Questa è un'altra frase, in un altro paragrafo.
+% \indent
+% \noindent 
+
+\section{Altro esempio di sezione}
+\lipsum[1]
+\subsection{Esempio di sottosezione}
+\lipsum[2]
+\subsubsection{Esempio di sotto-sottosezione}
+%\ usepackage{multicol}
+\begin{multicols}{3}
+[
+\begin{large}
+Testo che verrà visualizzato per intero senza separazione in colonne.
+\end{large} % \tiny, \small, \large, \huge
+]
+\lipsum[3-5]
+\end{multicols}
+
+% altre possibilità \chapter{} per book e report
+
+\section{Altre opzioni}
+\label{opzioni}
+% caratteri speciali
+30\textcelsius \\
+100\texteuro % \usepackage{lmodern}
+
+\noindent
+Come detto in \ref{opzioni} \\
+Come detto a pagina \pageref{opzioni} \\
+Questa è una nota a piè di pagina\footnote{Esempio di nota} \\
+Ciao, \textbf{Ciao}, \textit{Ciao}, \underline{Ciao} \\
+
+\noindent
+\begin{itemize}
+    \item primo punto
+    \item[-] secondo punto
+\end{itemize}
+
+\vspace{2cm}
+
+\begin{enumerate}
+    \item primo sottoelenco:
+    \begin{itemize}
+        \item primo punto
+        \item secondo punto
+    \end{itemize}
+    \item secondo sottoelenco:
+    \begin{description}
+        \item[prova] terzo punto
+        \item[ciao] quarto punto
+    \end{description}
+\end{enumerate}
+
+\begin{flushleft}
+\lipsum[1]    
+\end{flushleft}
+
+\begin{flushright}
+\lipsum[1]    
+\end{flushright}
+
+\begin{center}
+\lipsum[1]
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|l|rrr}
+\hline
+nome & cognome & ciao & ciao & ciao \\
+\hline
+Mario & Rossi & a & b & c \\
+Luca & Bianchi & c & d & e \\
+\hline
+\end{tabular}
+\end{center}
+
+% più complicata
+\begin{center} % \usepackage{multirow}
+{\renewcommand{\arraystretch}{1.5}\renewcommand{\tabcolsep}{0.5cm}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+nome & cognome & \multicolumn{3}{|c|}{ciao} \\
+\hline
+\multirow{2}{*}{Mario} & Rossi & a & b & c \\ \cline{3-5}
+& Bianchi & c & d & e \\
+\hline
+\end{tabular}
+}
+\end{center}
+
+% per tabelle in excel o csv o txt usare LaTeX table convert.
+
+% \usepackage{graphicx}
+\begin{figure}[!htb] % ! per non considerare parametri interni che ostruiscono
+    \centering
+    \includegraphics[width=10cm]{ai-sf.png}
+    \caption{Logo di AISF}
+    \label{fig:aisf}
+\end{figure}
+
+% \renewcommand{\figurename}{Figura} % per sostituire il Figure (va messo prima)
+
+% height = 5cm
+% width = 0.5\textwidth
+% width = 0.5\linewidth
+% se si è disperati \usepackage{float} [H] 
+
+\noindent
+Come visto in figura \ref{fig:aisf}.
+
+% più immagini accostate
+
+\begin{figure}[H]
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=6cm]{ai-sf.png}
+\caption{primo logo}
+\label{fig:logo1}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=6cm]{ai-sf.png}
+\caption{secondo logo}
+\label{fig:logo2}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+\hspace{-2.25cm}
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=9cm]{ai-sf.png}
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}{.5\textwidth}
+\centering
+\includegraphics[width=9cm]{ai-sf.png}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+\begin{minipage}{.4\textwidth}
+\centering
+\includegraphics[width=5cm]{ai-sf.png}
+\caption{primo logo}
+\label{fig:logo1}
+\end{minipage}
+\begin{minipage}{.6\textwidth}
+\centering
+{\renewcommand{\arraystretch}{1.5}\renewcommand{\tabcolsep}{0.5cm}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+nome & cognome & \multicolumn{3}{|c|}{ciao} \\
+\hline
+\multirow{2}{*}{Mario} & Rossi & a & b & c \\ \cline{3-5}
+& Bianchi & c & d & e \\
+\hline
+\end{tabular}
+}
+\caption{prima tabella} % attenzione a nomenclatura!
+\label{tab:tabella}
+\end{minipage}
+\end{figure}
+
+% inserire ora ai-sf.png in folder images
+% modificare in images/ai-sf.png
+% a inizio documento \graphicspath{{images/}}
+
+\end{document}

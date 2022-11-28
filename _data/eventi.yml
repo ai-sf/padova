@@ -1,6 +1,6 @@
 sections:
   - events:
-    - image: img/corso_latex.png
+    - image: corso_latex.png
       title: 
       text: "LaTeX è un versatile edito di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
