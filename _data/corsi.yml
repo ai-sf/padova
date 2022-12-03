@@ -13,7 +13,7 @@ sections:
       - text: "Speciale Tesi: Diapositive e Bibliografia - 06/12/2023"
         urls: 
         - name: "Teoria"
-          url: "---"
+          url: lezione3latex
 
   - title: "Corso Python"
     text: "---"
