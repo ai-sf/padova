@@ -1,15 +1,7 @@
 sections:
   - events:
-    - image: latex.png
+    - image: corso_latex.png
       title: 
-      text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
+      text: "LaTeX è un versatile edito di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
-  - events:
-    - image: ponno.png
-      title:
-      text: Il punto di partenza di questo seminario e' rappresentato  da alcuni lavori del primissimo (1923) e dell'ultimo (1954) Fermi, lavori che sono collegati da una linea di pensiero molto chiara. Partendo dalla contestualizzazione storica di questi articoli, che si collocano tutti sulla frontiera della ricerca della relativa epoca, si mostra come le idee e i metodi innovativi di Fermi abbiano dato vita a interi campi di ricerca in fisica e matematica, tutti ancora vivi e aperti, partendo dalla teoria ergodica (fondamenti dinamici della meccanica statistica), passando per la teoria delle perturbazioni e i metodi di simulazione numerica, per arrivare al problema del rilassamento all'equilibrio dei sistemi quantistici.
-  - events:
-    - image: monaco.png
-      title:
-      text: I vetri sono materiali fuori equilibrio e le loro proprietà dipendono da come vengono preparati. Le procedure di preparazione tradizionali utilizzano esattamente questa caratteristica per ottenere materiali con proprietà specifiche. Ad esempio, un vetro raffreddato lentamente sarà omogeneo e fragile; un vetro raffreddato rapidamente tenderà invece ad essere duttile. Un’alternativa a queste procedure tradizionali è di utilizzare la luce come strumento per modificare le proprietà del vetro. In questa presentazione, introdurrò il concetto di vetro e mostrerò come sia possibile ottenere informazioni microscopiche (vale a dire, alla scala della distanza interatomica) sulla dinamica atomica con esperimenti basati su radiazione X coerente, quale quella prodotta da laser ad elettroni liberi. Per chiarire come l’illuminazione possa modificare le proprietà di un vetro, mostrerò come sia possibile ‘fluidificare’ un vetro opportunamente illuminato, vale a dire indurre uno stato di moto degli atomi a temperature alle quali il materiale sarebbe altrimenti solido. Questa sorta di passaggio di stato non avviene per via termica, ed è chiaramente molto differente dal normale processo di fusione di un solido.
