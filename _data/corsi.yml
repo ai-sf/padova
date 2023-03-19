@@ -16,33 +16,22 @@ sections:
           url: lezione3latex.zip
 
   - title: "Corso Python"
-    text: "---"
+    text: "Le lezioni si terranno nei giorni indicati in LUF2 alle ore 16:30."
     downloads:
-      - text: "---"
+      - text: "Introduzione a Python - 20/03/2023"
         urls: 
-        - name: "---"
-          url: "---"
-      - text: "Lezione 1 - ---"
+        - name: "Teoria"
+          url: python_lez0.txt
+      - text: "Calcolo Scientifico in NumPy - 23/03/2023"
         urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
-      - text: "Lezione 2 - ---"
+        - name: "Teoria"
+          url: python_lez1.zip
+      - text: "Analisi e Visualizzazione in Pandas, SciPy e Matplotlib - 27/03/2023"
         urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
-      - text: "Lezione 3 - ---"
+        - name: "Teoria"
+          url: python_lez2.zip
+      - text: "Reti Neurali in Tensorflow e Keras - 30/03/2023"
         urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
-      - text: "Lezione 4 - ---"
-        urls: 
-        - name: "---"
-          url: "---.pdf"
-        - name: "---"
-          url: "---.pdf"
+        - name: "Teoria"
+          url: python_lez3.txt
+
