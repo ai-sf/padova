@@ -6,26 +6,24 @@
   <script src="{{ site.url }}/js/{{page.script}}"></script>
 {% endif %}
 
-<script> // Slider
+<script> 
   $(document).ready(function(){
-  $('.slider').slider({full_width: false});
+    $('.slider').slider({full_width: false});
   });
 </script>
-<script> // Initialize collapse button
+<script> 
   $(document).ready(function(){
-  $('.sidenav').sidenav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  $('.collapsible').collapsible();
-  });
-</script>
-<script>
-  $(document).ready(function(){
-  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-  $('.modal').modal();
+    $('.sidenav').sidenav();
+    $('.collapsible').collapsible();
   });
 </script>
 <script>
   $(document).ready(function(){
-      $('.carousel').carousel();
+    $('.modal').modal();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
   });
 </script>

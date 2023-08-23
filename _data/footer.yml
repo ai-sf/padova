@@ -4,22 +4,14 @@ descr: The Associazione Italiana Studenti di Fisica (AISF) gathers together most
 contact:
   - name: Esecutivo 
     mail: esecutivo@ai-sf.it
-  - name: Presidente
-    mail: 
 
 connect:
-  - name: Facebook
-    url: "https://www.facebook.com/AISFPadova/"
-    facebook: true
   - name: Instagram
     url: "https://www.instagram.com/aisf_padova/"
     instagram: true
-  #- name: Twitter
-  #  url: "https://twitter.com/aisf_fisica"
-  #  twitter: true
 
 creator:
   - name: Tommaso Ferracci
   - name: Roberto Ciccarelli
-  #  mail: roberto.ciccarelli@ai-sf.it
+
 

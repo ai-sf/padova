@@ -19,3 +19,7 @@ sections:
       text: "L'obiettivo del corso è costruire le basi del linguaggio e applicarle principalmente a problemi di analisi dati, approfondendo aspetti come la visualizzazione e la manipolazione di dati, e con una breve introduzione al Machine Learning. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
+
+    - image: bazzan.png
+      title:
+      text: "Nel 2015 gli interferometri della collaborazione LIGO-Virgo hanno osservato per la prima volta un'onda gravitazionale. Si tratta di una scoperta epocale per svariati motivi. Forse il più importante è proprio che questo tipo di rilevazione ha aperto un modo completamente diverso di studiare il cosmo. Le onde gravitazionali interagiscono molto poco con la materia e quindi possono propagarsi indisturbate per distanze enormi. Per lo stesso motivo sono incredibilmente difficili da misurare, il che spiega perché siano passati esattamente cento anni fra la predizione della loro esistenza da parte di Albert Einstein, e la loro rivelazione sperimentale. Inoltre alcune delle più forti sorgenti di onde gravitazionali, come i Buchi Neri e le stelle di Neutroni, sono oggetti celesti difficilissimi da studiare con altri tipi di segnali. L’astronomia gravitazionale è dunque un nuovo e potente strumento per l’esplorazione del cosmo che ci consente di ampliare in modo prima impensabile le nostre conoscenze di cosmologia, astrofisica e fisica fondamentale."
