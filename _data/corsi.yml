@@ -10,7 +10,7 @@ sections:
         urls: 
         - name: "Teoria"
           url: lezione2latex.tex
-      - text: "Speciale Tesi: Diapositive e Bibliografia - 06/12/2023"
+      - text: "Speciale Tesi: Diapositive e Bibliografia - 06/12/2022"
         urls: 
         - name: "Teoria"
           url: lezione3latex.zip
