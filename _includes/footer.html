@@ -1,13 +1,11 @@
 <footer class="page-footer custom1">
   <div class="container">
     <div class="row">
-      <div class="col l6 m6 s12">
+      <div class="col l8 m6 s12">
         <h5 class="white-text">{{ site.data.footer.title }}</h5>
         <p class="grey-text text-lighten-4">{{ site.data.footer.descr }}</p>
       </div>
-      <div class="col l2 m6 s6">
-      </div>
-      <div class="col l2 m6 s6">
+      <div class="col l2 m3 s6">
         <h5 class="white-text">Contact</h5>
         <ul>
         {% for item in site.data.footer.contact %}
@@ -15,7 +13,7 @@
         {% endfor %}
         </ul>
       </div>
-      <div class="col l2 m6 s6">
+      <div class="col l2 m3 s6">
         <h5 class="white-text">Connect</h5>
         <ul>
           {% for item in site.data.footer.connect %}
