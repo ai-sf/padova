@@ -1,29 +1,29 @@
 sections:
   - events:
     - image: 23-24/farina-lamon.png
-      title: La storia di come abbiamo "convinto" il Silicio a emettere luce (e di come siamo finiti a lavorarci)
+      title: 
       text: "L’industria dell’elettronica é dominata dal Silicio, impiegato in ogni chip nei piú svariati dispositivi, dai telefoni alle radio alle auto. La crescente domanda di dispositivi elettronici, che tendera solo ad aumentare in futuro, sta rendendo sempre piu evidente il problema del consumo energetico associato a tali dispositivi. Sebbene le sue innumerevoli proprieta (tra cui la sua grande abbondanza in natura) lo hanno reso il protagonista indiscusso della tecnologia mondiale, il Silicio presenta un fondamentale problema: non emette luce. Percio, in un'era in cui le connessioni ottiche, come la fibra ottica, sono sempre più cruciali per l'efficienza energetica e le prestazioni, una sorgente di luce al Silicio miniaturizzabile rappresenta il passaggio chiave verso la realizzazione di micro-chip ottici integrati (photonic integrated circuits). Attraverso un'ingegnosa manipolazione della sua struttura cristallina, siamo in grado di sbloccare il potenziale di emissione luminosa del Silicio. Questa proprietà rivoluzionaria apre le porte a una serie di applicazioni di grande impatto, che segnano il cammino dell'innovazione tecnologica. Il nuovo Silicio, dotato di questa abilità, garantisce di rivoluzionare il settore con dispositivi quali LASER, LED e QuBit, tracciando un futuro promettente per la tecnologia."
 
-    - image: latex.png
+    - image: 22-23/latex.png
       title: 
       text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
-    - image: ponno.png
+    - image: 22-23/ponno.png
       title: 
       text: "Il punto di partenza di questo seminario e' rappresentato da alcuni lavori del primissimo (1923) e dell'ultimo (1954) Fermi, lavori che sono collegati da una linea di pensiero molto chiara. Partendo dalla contestualizzazione storica di questi articoli, che si collocano tutti sulla frontiera della ricerca della relativa epoca, si mostra come le idee e i metodi innovativi di Fermi abbiano dato vita a interi campi di ricerca in fisica e matematica, tutti ancora vivi e aperti, partendo dalla teoria ergodica (fondamenti dinamici della meccanica statistica), passando per la teoria delle perturbazioni e i metodi di simulazione numerica, per arrivare al problema del rilassamento all'equilibrio dei sistemi quantistici."
 
-    - image: monaco.png
+    - image: 22-23/monaco.png
       title:
       text: "I vetri sono materiali fuori equilibrio: le loro proprietà dipendono da come vengono preparati. Le procedure di preparazione tradizionali utilizzano esattamente questa caratteristica per ottenere materiali con proprietà specifiche. Ad esempio, un vetro raffreddato lentamente sarà omogeneo e fragile; un vetro raffreddato rapidamente tenderà invece ad essere duttile. Un’alternativa a queste procedure tradizionali è di utilizzare la luce come strumento per modificare le proprietà del vetro. In questa presentazione, introdurrò il concetto di vetro e mostrerò come sia possibile ottenere informazioni microscopiche (vale a dire, alla scala della distanza interatomica) sulla dinamica atomica con esperimenti basati su radiazione X coerente, quale quella prodotta da laser ad elettroni liberi. Per chiarire come l’illuminazione possa modificare le proprietà di un vetro, mostrerò come sia possibile ‘fluidificare’ un vetro opportunamente illuminato, vale a dire indurre uno stato di moto degli atomi a temperature alle quali il materiale sarebbe altrimenti solido. Questa sorta di passaggio di stato non avviene per via termica, ed è chiaramente molto differente dal normale processo di fusione di un solido."
 
-    - image: python.png
+    - image: 22-23/python.png
       title:
       text: "L'obiettivo del corso è costruire le basi del linguaggio e applicarle principalmente a problemi di analisi dati, approfondendo aspetti come la visualizzazione e la manipolazione di dati, e con una breve introduzione al Machine Learning. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
-    - image: bazzan.png
+    - image: 22-23/bazzan.png
       title:
       text: "Nel 2015 gli interferometri della collaborazione LIGO-Virgo hanno osservato per la prima volta un'onda gravitazionale. Si tratta di una scoperta epocale per svariati motivi. Forse il più importante è proprio che questo tipo di rilevazione ha aperto un modo completamente diverso di studiare il cosmo. Le onde gravitazionali interagiscono molto poco con la materia e quindi possono propagarsi indisturbate per distanze enormi. Per lo stesso motivo sono incredibilmente difficili da misurare, il che spiega perché siano passati esattamente cento anni fra la predizione della loro esistenza da parte di Albert Einstein, e la loro rivelazione sperimentale. Inoltre alcune delle più forti sorgenti di onde gravitazionali, come i Buchi Neri e le stelle di Neutroni, sono oggetti celesti difficilissimi da studiare con altri tipi di segnali. L’astronomia gravitazionale è dunque un nuovo e potente strumento per l’esplorazione del cosmo che ci consente di ampliare in modo prima impensabile le nostre conoscenze di cosmologia, astrofisica e fisica fondamentale."
