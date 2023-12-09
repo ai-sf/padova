@@ -1,5 +1,11 @@
 sections:
   - events:
+    - image: 23-24/latex.png
+      title:
+      text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Lab P104 del complesso Paolotti i giorni 12/12 e 21/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
+      link: https://ai-sf.it/padova/corsi
+      linktxt: Sezione Corsi
+
     - image: 23-24/dorigo.png
       title:
       text: "In coincidenza al successo delle reti neurali nella classificazione di immagini in ImageNet, nel 2012 l'uso di tecniche di machine learning per la scoperta del bosone di Higgs le ha rese strumenti imprescindibili anche in ricerca in fisica fondamentale. Il prossimo paradigm shift comporterà l'utilizzo di tecniche di intelligenza artificiale per l'ottimizzazione simultanea degli strumenti di misura e delle tecniche di ricostruzione e analisi dati. Questa transizione e' ostacolata dalla complessita' degli strumenti di AI necessari e dalla specializzazione necessaria a padroneggiarli. In questo seminario esamineremo lo stato dell'arte nell'uso di tecniche di AI in fisica delle particelle e le loro prospettive future."
@@ -7,12 +13,6 @@ sections:
     - image: 23-24/farina-lamon.png
       title: 
       text: "L’industria dell’elettronica é dominata dal Silicio, impiegato in ogni chip nei piú svariati dispositivi, dai telefoni alle radio alle auto. La crescente domanda di dispositivi elettronici, che tendera solo ad aumentare in futuro, sta rendendo sempre piu evidente il problema del consumo energetico associato a tali dispositivi. Sebbene le sue innumerevoli proprieta (tra cui la sua grande abbondanza in natura) lo hanno reso il protagonista indiscusso della tecnologia mondiale, il Silicio presenta un fondamentale problema: non emette luce. Percio, in un'era in cui le connessioni ottiche, come la fibra ottica, sono sempre più cruciali per l'efficienza energetica e le prestazioni, una sorgente di luce al Silicio miniaturizzabile rappresenta il passaggio chiave verso la realizzazione di micro-chip ottici integrati (photonic integrated circuits). Attraverso un'ingegnosa manipolazione della sua struttura cristallina, siamo in grado di sbloccare il potenziale di emissione luminosa del Silicio. Questa proprietà rivoluzionaria apre le porte a una serie di applicazioni di grande impatto, che segnano il cammino dell'innovazione tecnologica. Il nuovo Silicio, dotato di questa abilità, garantisce di rivoluzionare il settore con dispositivi quali LASER, LED e QuBit, tracciando un futuro promettente per la tecnologia."
-
-    - image: 22-23/latex.png
-      title: 
-      text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
-      link: https://ai-sf.it/padova/corsi
-      linktxt: Sezione Corsi
 
     - image: 22-23/ponno.png
       title: 
@@ -28,10 +28,16 @@ sections:
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
+    - image: 22-23/latex.png
+      title: 
+      text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
+      link: https://ai-sf.it/padova/corsi
+      linktxt: Sezione Corsi
+
     - image: 22-23/bazzan.png
       title:
       text: "Nel 2015 gli interferometri della collaborazione LIGO-Virgo hanno osservato per la prima volta un'onda gravitazionale. Si tratta di una scoperta epocale per svariati motivi. Forse il più importante è proprio che questo tipo di rilevazione ha aperto un modo completamente diverso di studiare il cosmo. Le onde gravitazionali interagiscono molto poco con la materia e quindi possono propagarsi indisturbate per distanze enormi. Per lo stesso motivo sono incredibilmente difficili da misurare, il che spiega perché siano passati esattamente cento anni fra la predizione della loro esistenza da parte di Albert Einstein, e la loro rivelazione sperimentale. Inoltre alcune delle più forti sorgenti di onde gravitazionali, come i Buchi Neri e le stelle di Neutroni, sono oggetti celesti difficilissimi da studiare con altri tipi di segnali. L’astronomia gravitazionale è dunque un nuovo e potente strumento per l’esplorazione del cosmo che ci consente di ampliare in modo prima impensabile le nostre conoscenze di cosmologia, astrofisica e fisica fondamentale."
 
     - image: 22-23/montangero.jpg
       title:
-      text: "La teoria dell'informazione quantistica descrive come l'informazione può essere codificata e manipolata in un hardware che obbedisce alle leggi della meccanica quantistica.Sfruttando proprietà quantistiche come il principio di sovrapposizione e le correlazioni quantistiche è stato mostrato che in alcuni casi è possibile sviluppare protocolli e algoritmi più efficienti rispetto a quelli disponibili con le attuali tecnologie basate sulla fisica classica. Negli ultimi decenni è stata svolta una fervente attività di ricerca e sviluppo in questa direzione: alcune tecnologie sono ormai presenti sul mercato, altre vi si affacciano rapidamente. Presenteremo brevemente i fenomeni fisici su cui le tecnologie quantistiche si basano insieme con le attuali applicazioni disponibili, le prospettive future delle comunicazioni, calcolo, simulazioni e sensori quantistici e le nuove attività previste del Dipartimento di Fisica e Astronomia dell’Università di Padova in questa direzione." 
+      text: "La teoria dell'informazione quantistica descrive come l'informazione può essere codificata e manipolata in un hardware che obbedisce alle leggi della meccanica quantistica. Sfruttando proprietà quantistiche come il principio di sovrapposizione e le correlazioni quantistiche è stato mostrato che in alcuni casi è possibile sviluppare protocolli e algoritmi più efficienti rispetto a quelli disponibili con le attuali tecnologie basate sulla fisica classica. Negli ultimi decenni è stata svolta una fervente attività di ricerca e sviluppo in questa direzione: alcune tecnologie sono ormai presenti sul mercato, altre vi si affacciano rapidamente. Presenteremo brevemente i fenomeni fisici su cui le tecnologie quantistiche si basano insieme con le attuali applicazioni disponibili, le prospettive future delle comunicazioni, calcolo, simulazioni e sensori quantistici e le nuove attività previste del Dipartimento di Fisica e Astronomia dell’Università di Padova in questa direzione." 
