@@ -1,6 +1,11 @@
 sections:
   - title: "Corso LaTeX 23/24"
     text: "Le lezioni si terranno il 12 e il 21 dicembre in Lab P104 alle ore 16:30"
+    downloads:
+      - text: "Materiali del corso"
+        urls:
+        - name: "Teoria"
+          url: 23-24/latex/lez1.zip
     
   - title: "Corso Python 22/23"
     text: "Le lezioni si terranno nei giorni indicati in LUF2 alle ore 16:30."
@@ -8,19 +13,19 @@ sections:
       - text: "Introduzione a Python - 20/03/2023"
         urls: 
         - name: "Teoria"
-          url: 22-23/python/python_lez0.txt
+          url: 22-23/python/lez0.txt
       - text: "Calcolo Scientifico in NumPy - 23/03/2023"
         urls: 
         - name: "Teoria"
-          url: 22-23/python/python_lez1.zip
+          url: 22-23/python/lez1.zip
       - text: "Analisi e Visualizzazione in Pandas, SciPy e Matplotlib - 27/03/2023"
         urls: 
         - name: "Teoria"
-          url: 22-23/python/python_lez2.zip
+          url: 22-23/python/lez2.zip
       - text: "Reti Neurali in Tensorflow e Keras - 30/03/2023"
         urls: 
         - name: "Teoria"
-          url: 22-23/python/python_lez3.txt
+          url: 22-23/python/lez3.txt
 
   - title: "Corso LaTeX 22/23"
     text: "Le lezioni si terranno nei giorni indicati in LUF1 alle ore 16:30."
@@ -28,12 +33,12 @@ sections:
       - text: "Formattazione, Tabelle e Immagini - 29/11/2022"
         urls: 
         - name: "Teoria"
-          url: 22-23/latex/lezione1latex.tex
+          url: 22-23/latex/lez1.tex
       - text: "Formule Matematiche, Grafici e Mappe - 02/12/2022"
         urls: 
         - name: "Teoria"
-          url: 22-23/latex/lezione2latex.tex
+          url: 22-23/latex/lez2.tex
       - text: "Speciale Tesi: Diapositive e Bibliografia - 06/12/2022"
         urls: 
         - name: "Teoria"
-          url: 22-23/latex/lezione3latex.zip
+          url: 22-23/latex/lez3.zip
