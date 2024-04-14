@@ -1,7 +1,8 @@
 sections:
   - title: "Corso ROOT 23/24"
-    text: "Potete trovare una macchina virtuale con ROOT già installato [qui](https://drive.google.com/drive/folders/1P2ydZXAvXM9lEtUfqb2xWVwusPsYKoJF?usp=drive_link)."
-    
+    text: "Potete trovare una macchina virtuale con ROOT già installato nel link qua sotto."
+    link: https://drive.google.com/drive/folders/1P2ydZXAvXM9lEtUfqb2xWVwusPsYKoJF?usp=drive_link
+    linktxt: Macchina Virtuale
 
   - title: "Corso LaTeX 23/24"
     text: "Le lezioni si terranno il 12 e il 21 dicembre in Lab P104 alle ore 16:30"
