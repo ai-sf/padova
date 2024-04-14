@@ -9,7 +9,7 @@ title: Corsi
     <div class="col s12">
       <h3>{{section.title}} </h3>
       <p>{{ section.text }}</p>
-      <a href={{ section.link }}>{{ section.linktxt }}</a>
+      <a href={{ section.link }} target="_blank">{{ section.linktxt }}</a>
       {% if section.downloads %}
       <ul class="collection">
         {% for download in section.downloads %}
