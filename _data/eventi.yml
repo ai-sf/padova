@@ -1,5 +1,15 @@
 sections:
   - events:
+    - image: 23-24/root.png
+      title:
+      text: "I giorni 18 aprile, 24 aprile e 3 maggio, in Lab P104 del complesso Paolotti alle ore 16:30 si terranno 3 lezioni a tema ROOT, una potente libreria di C++ e Python sviluppata dal CERN e orientata all'analisi di grandi moli di dati di High Energy Physics."
+      link: https://ai-sf.it/padova/corsi
+      linktxt: Sezione Corsi
+
+    - image: 23-24/monti.png
+      title:
+      text: 
+      
     - image: 23-24/latex.png
       title:
       text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Lab P104 del complesso Paolotti i giorni 12/12 e 21/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
