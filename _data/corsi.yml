@@ -2,7 +2,7 @@ sections:
   - title: "Corso ROOT 23/24"
     text: "Troverete nel link seguente le istruzioni per installare ROOT, sia nel caso lo vogliate fare autonomamente, che semplicemente installando una macchina virtuale preconfezionata (consigliamo di scaricarla predentemente alla lezione dato il peso superiore ai 5GB)."
     link: https://drive.google.com/drive/folders/1P2ydZXAvXM9lEtUfqb2xWVwusPsYKoJF?usp=drive_link
-    linktxt: Come installare ROOT
+    linktxt: Guida all'installazione
 
   - title: "Corso LaTeX 23/24"
     text: "Le lezioni si terranno il 12 e il 21 dicembre in Lab P104 alle ore 16:30"
