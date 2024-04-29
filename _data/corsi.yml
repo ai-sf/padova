@@ -10,6 +10,12 @@ sections:
           url: 23-24/root/lez1.pptx
         - name: "Materiali"
           url: 23-24/root/lez1.zip
+      - text: "Lezione 2"
+        urls:
+        - name: "Teoria"
+          url: 23-24/root/lez2.pptx
+        - name: "Materiali"
+          url: 23-24/root/lez2.zip
         
 
   - title: "Corso LaTeX 23/24"
