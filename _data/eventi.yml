@@ -1,5 +1,9 @@
 sections:
   - events:
+    - image: 23-24/orlandini.jpg
+      title:
+      text: "Il professor Enzo Orlandini, docente di meccanica statistica all' università di Padova, ci parlerà di Fisica e complessità della materia soffice e vivente, dove verranno illustrati, attraverso esempi specifici, alcuni problemi ed approcci teorici della fisica dei polimeri/biopolimeri, dei fluidi strutturati e della materia attiva, tematiche oggigiorno molto attuali ed oggetto di studio all'interno del gruppo di meccanica statistica del Dipartimento di Fisica."
+
     - image: 23-24/root.png
       title:
       text: "I giorni 18 aprile, 24 aprile e 3 maggio, in Lab P104 del complesso Paolotti alle ore 16:30 si terranno 3 lezioni a tema ROOT, una potente libreria di C++ e Python sviluppata dal CERN e orientata all'analisi di grandi moli di dati di High Energy Physics."
