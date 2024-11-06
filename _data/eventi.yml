@@ -1,5 +1,9 @@
 sections:
   - events:
+    - image: 24-25/zorzi-mazzucato.jpg
+      title:
+      text: "In questo incontro, il Prof. Mazzuccato (Dipartimento di Fisica e Astronomia) e il Prof. Zorzi (Dipartimento di Psicologia Generale) ci parleranno delle ricerche sui sistemi complessi, premiate con il Nobel per la Fisica 2024, che hanno profondamente segnato il mondo scientifico aprendo la strada allo sviluppo delle reti neurali. Durante il dibattito, verranno esplorate non solo gli utilizzi di queste conoscenze nel machine learning ma anche le applicazioni nel campo delle neuroscienze."
+      
     - image: 23-24/orlandini.jpg
       title:
       text: "Il professor Enzo Orlandini, docente di meccanica statistica all' università di Padova, ci parlerà di Fisica e complessità della materia soffice e vivente, dove verranno illustrati, attraverso esempi specifici, alcuni problemi ed approcci teorici della fisica dei polimeri/biopolimeri, dei fluidi strutturati e della materia attiva, tematiche oggigiorno molto attuali ed oggetto di studio all'interno del gruppo di meccanica statistica del Dipartimento di Fisica."
