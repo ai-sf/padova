@@ -1,4 +1,25 @@
 sections:
+  - title: "Esecutivo 2024/2025"
+    downloads:
+      - name: "Giorgio Benvegnù"
+        title: "Presidente"
+      - name: "Margherita Rossi"
+        title: "Vicepresidente"
+      - name: "Nicolò Dittadi"
+        title: "Rapporti col dipartimento"
+      - name: "Annalisa Amigoni, Michelangelo Boscolo e Giuseppe Piccione"
+        title: "Grafiche e foto"
+      - name: "Michelangelo Boscolo, Lorenzo Cavezza, Giacomo Veglio e ..."
+        title: "Social e comunicazioni"
+      - name: "Monica Barbieri e Marilena Santarossa"
+        title: "Rapporti con professori e PhD"
+      - name: "Edoardo D'Amore"
+        title: "Responsabile IT"
+      - name: "Pasquale Andreacchio"
+        title: "Responsabile spese"
+      - name: "Riccardo Pezzetta, Giovanni Pontiroli, Marco Vianello"
+        title: "Responsabili corso di LaTeX" 
+
   - title: "Esecutivo 2022/2023"
     downloads:
       - name: "Paolo Lapo Cerni"
