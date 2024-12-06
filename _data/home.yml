@@ -1,4 +1,10 @@
 banner: images/loghi/logo_aisf_pd.png
 
-paragraph: "Il comitato locale AISF di Padova nasce nel 2016 e conta attualmente circa 50 membri, principalmente studenti del corso di laurea triennale in fisica. Dopo un periodo di stop legato all'emergenza COVID-19, le attività dell'associazione sono riprese a pieno ritmo nel 2022.
-Organizziamo conferenze a scopo divulgativo, corsi di programmazione e partecipiamo attivamente alle iniziative nazionali di AISF in coordinazione con gli altri comitati locali, come ad esempio i PLANCKS e la Conferenza Italiana Studenti di Fisica."
+#paragraph: "Il comitato locale AISF di Padova nasce nel 2016 e conta attualmente circa 50 membri, principalmente studenti del corso di laurea triennale in fisica. Dopo un periodo di stop legato all'emergenza COVID-19, le attività dell'associazione sono riprese a pieno ritmo nel 2022.
+#Organizziamo conferenze a scopo divulgativo, corsi di programmazione e partecipiamo attivamente alle iniziative nazionali di AISF in coordinazione con gli altri comitati locali, come ad esempio i PLANCKS e la Conferenza Italiana Studenti di Fisica."
+
+paragraph: "Il comitato locale AISF di Padova nasce nel 2016 con l'obiettivo di promuovere una vita universitaria più attiva attraverso eventi, seminari e corsi a tema fisica.
+Attualmente conta di oltre 90 iscritti, provenienti sia dalla laurea triennale in Fisica che dalle lauree magistrali. \n
+A livello locale vengono organizzati seminari e incontri informali con professori e dottorandi (i cosiddetti \"Spritz Facili\") e corsi su argomenti utili per la carriera accademica di qualsiasi fisico, come LaTeX, Python o ROOT. \n
+A livello nazionale è possibile poi partecipare a CISF (Conferenza Italiana Studenti di Fisica) oppure a TIQIT (Trento-Innsbruck Quantum Information Tour). \n
+A livello internazionale vengono poi organizzati i Planks, gare in cui squadre di ogni nazione si sfidano a risolvere problemi di fisica."
