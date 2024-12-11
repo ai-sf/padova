@@ -1,4 +1,11 @@
 sections:
+  - title: "Corso LaTeX 24/25"
+    text: "Le lezioni si terranno il 12 dicembre in LUF1 e il 19 dicembre in Aula B"
+    downloads:
+      - text: "Lezione 1"
+        urls:
+        - name: "Materiali"
+          url: 24-25/latex/lez1.zip
   - title: "Corso ROOT 23/24"
     text: "Troverete nel link seguente le istruzioni per installare ROOT, sia nel caso lo vogliate fare autonomamente, che semplicemente installando una macchina virtuale preconfezionata (consigliamo di scaricarla precedentemente alla lezione dato il peso superiore ai 5GB)."
     link: https://drive.google.com/drive/folders/1P2ydZXAvXM9lEtUfqb2xWVwusPsYKoJF?usp=drive_link
