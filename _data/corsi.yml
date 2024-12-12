@@ -4,6 +4,8 @@ sections:
     downloads:
       - text: "Lezione 1"
         urls:
+        - name: "Teoria"
+          url: 24-25/latex/lez1.pdf
         - name: "Materiali"
           url: 24-25/latex/lez1.zip
   - title: "Corso ROOT 23/24"
