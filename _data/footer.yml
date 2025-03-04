@@ -7,11 +7,16 @@ contact:
 
 connect:
   - name: Instagram
+    #text: Instagram
     url: "https://www.instagram.com/aisf_padova/"
-    instagram: true
+    #instagram: true
+  - name: Telegram
+    #text: Telegram
+    url: "https://t.me/AISFpadova"
 
 creator:
   - name: Tommaso Ferracci
   - name: Roberto Ciccarelli
+  - name: Edoardo D'Amore
 
 
