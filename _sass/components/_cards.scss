@@ -20,7 +20,8 @@
 
   .card-title {
     font-size: 24px;
-    font-weight: 300;
+    font-weight: bold;
+    padding: 24px;
     &.activator {
       cursor: pointer;
     }
