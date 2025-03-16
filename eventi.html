@@ -10,16 +10,27 @@ title: Eventi
 {% if section.events %}
   {% for event in section.events %}
     <div class="card">
+      {% if event.title %}
+      <div class="card-title">
+        <p>{{ event.title }}</p>
+      </div>
+      {% endif %}
+      {% if event.image %}
       <div class="card-image">
         <img src="{{ site.url }}/images/{{ event.image }}">
         <span class="card-title">{{ event.title }}</span>
       </div>
+      {% endif}
+      {% if event.text %}
       <div class="card-content">
         <p>{{ event.text }}</p>
       </div>
+      {% endif %}
+      {% if event.link %}
       <div class="card-action">
-        <a href={{ event.link }}>{{ event.linktxt }}</a>
+        <a href="{{ event.link }}">{{ event.linktxt }}</a>
       </div>
+      {% endif %}
     </div>
   {% endfor %}
 {% endif %}
