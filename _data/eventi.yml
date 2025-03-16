@@ -1,65 +1,65 @@
 sections:
   - events:
     - image: 24-25/doro.jpg
-      title:
+      title: "Aperitivo con Fritz Zwicky: un buffet di astrofisica delle alte energie"
       text: "Questo seminario sarà incentrato sull' astrofisica delle alte energie: verranno presentati i principali strumenti di osservazione e le tematiche scientifiche, con particolare attenzione ai temi di fisica fondamentale e nuova fisica che si possono studiare con questa tecnica. Il seminario sarà tenuto dal professor Michele Doro, docente del DFA di Padova."
       
     - image: 24-25/zorzi-mazzucato.jpg
-      title:
+      title: "Nobel Insight"
       text: "In questo incontro, il Prof. Mazzuccato (Dipartimento di Fisica e Astronomia) e il Prof. Zorzi (Dipartimento di Psicologia Generale) ci parleranno delle ricerche sui sistemi complessi, premiate con il Nobel per la Fisica 2024, che hanno profondamente segnato il mondo scientifico aprendo la strada allo sviluppo delle reti neurali. Durante il dibattito, verranno esplorate non solo gli utilizzi di queste conoscenze nel machine learning ma anche le applicazioni nel campo delle neuroscienze."
       
     - image: 23-24/orlandini.jpg
-      title:
+      title: "Fisica e complessità della materia soffice e vivente"
       text: "Il professor Enzo Orlandini, docente di meccanica statistica all' università di Padova, ci parlerà di Fisica e complessità della materia soffice e vivente, dove verranno illustrati, attraverso esempi specifici, alcuni problemi ed approcci teorici della fisica dei polimeri/biopolimeri, dei fluidi strutturati e della materia attiva, tematiche oggigiorno molto attuali ed oggetto di studio all'interno del gruppo di meccanica statistica del Dipartimento di Fisica."
 
     - image: 23-24/root.jpg
-      title:
+      title: "Corso di ROOT"
       text: "I giorni 18 aprile, 24 aprile e 3 maggio, in Lab P104 del complesso Paolotti alle ore 16:30 si terranno 3 lezioni a tema ROOT, una potente libreria di C++ e Python sviluppata dal CERN e orientata all'analisi di grandi moli di dati di High Energy Physics."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
     - image: 23-24/monti.jpg
-      title:
+      title: "Epistemologia e creatività nelle scienze della natura"
       text: 
       
     - image: 23-24/latex.jpg
-      title:
+      title: "Corso di LaTeX"
       text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Lab P104 del complesso Paolotti i giorni 12/12 e 21/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
     - image: 23-24/dorigo.jpg
-      title:
+      title: "L'intelligenza artificiale per la ricerca in Fisica Fondamentale"
       text: "In coincidenza al successo delle reti neurali nella classificazione di immagini in ImageNet, nel 2012 l'uso di tecniche di machine learning per la scoperta del bosone di Higgs le ha rese strumenti imprescindibili anche in ricerca in fisica fondamentale. Il prossimo paradigm shift comporterà l'utilizzo di tecniche di intelligenza artificiale per l'ottimizzazione simultanea degli strumenti di misura e delle tecniche di ricostruzione e analisi dati. Questa transizione e' ostacolata dalla complessita' degli strumenti di AI necessari e dalla specializzazione necessaria a padroneggiarli. In questo seminario esamineremo lo stato dell'arte nell'uso di tecniche di AI in fisica delle particelle e le loro prospettive future."
 
     - image: 23-24/farina-lamon.jpg
-      title: 
+      title: "La storia di come abbiamo convinto il silicio a emettere luce"
       text: "L’industria dell’elettronica é dominata dal Silicio, impiegato in ogni chip nei piú svariati dispositivi, dai telefoni alle radio alle auto. La crescente domanda di dispositivi elettronici, che tendera solo ad aumentare in futuro, sta rendendo sempre piu evidente il problema del consumo energetico associato a tali dispositivi. Sebbene le sue innumerevoli proprieta (tra cui la sua grande abbondanza in natura) lo hanno reso il protagonista indiscusso della tecnologia mondiale, il Silicio presenta un fondamentale problema: non emette luce. Percio, in un'era in cui le connessioni ottiche, come la fibra ottica, sono sempre più cruciali per l'efficienza energetica e le prestazioni, una sorgente di luce al Silicio miniaturizzabile rappresenta il passaggio chiave verso la realizzazione di micro-chip ottici integrati (photonic integrated circuits). Attraverso un'ingegnosa manipolazione della sua struttura cristallina, siamo in grado di sbloccare il potenziale di emissione luminosa del Silicio. Questa proprietà rivoluzionaria apre le porte a una serie di applicazioni di grande impatto, che segnano il cammino dell'innovazione tecnologica. Il nuovo Silicio, dotato di questa abilità, garantisce di rivoluzionare il settore con dispositivi quali LASER, LED e QuBit, tracciando un futuro promettente per la tecnologia."
 
     - image: 22-23/ponno.png
-      title: 
+      title: "L'impatto attuale di Enrico Fermi nella Fisica Matematica"
       text: "Il punto di partenza di questo seminario e' rappresentato da alcuni lavori del primissimo (1923) e dell'ultimo (1954) Fermi, lavori che sono collegati da una linea di pensiero molto chiara. Partendo dalla contestualizzazione storica di questi articoli, che si collocano tutti sulla frontiera della ricerca della relativa epoca, si mostra come le idee e i metodi innovativi di Fermi abbiano dato vita a interi campi di ricerca in fisica e matematica, tutti ancora vivi e aperti, partendo dalla teoria ergodica (fondamenti dinamici della meccanica statistica), passando per la teoria delle perturbazioni e i metodi di simulazione numerica, per arrivare al problema del rilassamento all'equilibrio dei sistemi quantistici."
 
     - image: 22-23/monaco.png
-      title:
+      title: "Quando si illumina un vetro"
       text: "I vetri sono materiali fuori equilibrio: le loro proprietà dipendono da come vengono preparati. Le procedure di preparazione tradizionali utilizzano esattamente questa caratteristica per ottenere materiali con proprietà specifiche. Ad esempio, un vetro raffreddato lentamente sarà omogeneo e fragile; un vetro raffreddato rapidamente tenderà invece ad essere duttile. Un’alternativa a queste procedure tradizionali è di utilizzare la luce come strumento per modificare le proprietà del vetro. In questa presentazione, introdurrò il concetto di vetro e mostrerò come sia possibile ottenere informazioni microscopiche (vale a dire, alla scala della distanza interatomica) sulla dinamica atomica con esperimenti basati su radiazione X coerente, quale quella prodotta da laser ad elettroni liberi. Per chiarire come l’illuminazione possa modificare le proprietà di un vetro, mostrerò come sia possibile ‘fluidificare’ un vetro opportunamente illuminato, vale a dire indurre uno stato di moto degli atomi a temperature alle quali il materiale sarebbe altrimenti solido. Questa sorta di passaggio di stato non avviene per via termica, ed è chiaramente molto differente dal normale processo di fusione di un solido."
 
     - image: 22-23/python.png
-      title:
+      title: "Corso di Python"
       text: "L'obiettivo del corso è costruire le basi del linguaggio e applicarle principalmente a problemi di analisi dati, approfondendo aspetti come la visualizzazione e la manipolazione di dati, e con una breve introduzione al Machine Learning. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
     - image: 22-23/latex.png
-      title: 
+      title: "Corso di LaTeX"
       text: "LaTeX è un versatile editor di testo molto usato in ambito scientifico. Il corso è ad accesso libero a tutti gli studenti e si terrà in Aula LUF1 i giorni 29/11, 02/12, 06/12 dalle 16:30 alle 18:30. Per maggiori informazioni si rimanda alla sezione Corsi."
       link: https://ai-sf.it/padova/corsi
       linktxt: Sezione Corsi
 
     - image: 22-23/bazzan.png
-      title:
+      title: "Le onde gravitazionali e la rivoluzione dell'astronomia"
       text: "Nel 2015 gli interferometri della collaborazione LIGO-Virgo hanno osservato per la prima volta un'onda gravitazionale. Si tratta di una scoperta epocale per svariati motivi. Forse il più importante è proprio che questo tipo di rilevazione ha aperto un modo completamente diverso di studiare il cosmo. Le onde gravitazionali interagiscono molto poco con la materia e quindi possono propagarsi indisturbate per distanze enormi. Per lo stesso motivo sono incredibilmente difficili da misurare, il che spiega perché siano passati esattamente cento anni fra la predizione della loro esistenza da parte di Albert Einstein, e la loro rivelazione sperimentale. Inoltre alcune delle più forti sorgenti di onde gravitazionali, come i Buchi Neri e le stelle di Neutroni, sono oggetti celesti difficilissimi da studiare con altri tipi di segnali. L’astronomia gravitazionale è dunque un nuovo e potente strumento per l’esplorazione del cosmo che ci consente di ampliare in modo prima impensabile le nostre conoscenze di cosmologia, astrofisica e fisica fondamentale."
 
     - image: 22-23/montangero.jpg
-      title:
+      title: "La seconda rivoluzione quantistica - Come la teoria dei quanti sta cambiando la tecnologia"
       text: "La teoria dell'informazione quantistica descrive come l'informazione può essere codificata e manipolata in un hardware che obbedisce alle leggi della meccanica quantistica. Sfruttando proprietà quantistiche come il principio di sovrapposizione e le correlazioni quantistiche è stato mostrato che in alcuni casi è possibile sviluppare protocolli e algoritmi più efficienti rispetto a quelli disponibili con le attuali tecnologie basate sulla fisica classica. Negli ultimi decenni è stata svolta una fervente attività di ricerca e sviluppo in questa direzione: alcune tecnologie sono ormai presenti sul mercato, altre vi si affacciano rapidamente. Presenteremo brevemente i fenomeni fisici su cui le tecnologie quantistiche si basano insieme con le attuali applicazioni disponibili, le prospettive future delle comunicazioni, calcolo, simulazioni e sensori quantistici e le nuove attività previste del Dipartimento di Fisica e Astronomia dell’Università di Padova in questa direzione." 
