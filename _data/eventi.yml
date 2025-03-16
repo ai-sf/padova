@@ -1,5 +1,9 @@
 sections:
   - events:
+    - image: 24-25/doro.jpg
+      title:
+      text: "Questo seminario sarà incentrato sull' astrofisica delle alte energie: verranno presentati i principali strumenti di osservazione e le tematiche scientifiche, con particolare attenzione ai temi di fisica fondamentale e nuova fisica che si possono studiare con questa tecnica. Il seminario sarà tenuto dal professor Michele Doro, docente del DFA di Padova."
+      
     - image: 24-25/zorzi-mazzucato.jpg
       title:
       text: "In questo incontro, il Prof. Mazzuccato (Dipartimento di Fisica e Astronomia) e il Prof. Zorzi (Dipartimento di Psicologia Generale) ci parleranno delle ricerche sui sistemi complessi, premiate con il Nobel per la Fisica 2024, che hanno profondamente segnato il mondo scientifico aprendo la strada allo sviluppo delle reti neurali. Durante il dibattito, verranno esplorate non solo gli utilizzi di queste conoscenze nel machine learning ma anche le applicazioni nel campo delle neuroscienze."
