@@ -1,5 +1,6 @@
 sections:
   - title: "Esecutivo 2024/2025"
+    image: "24-25/esecutivo.jpg"
     downloads:
       - name: "Giorgio Benvegnù"
         title: "Presidente"
@@ -19,6 +20,8 @@ sections:
         title: "Responsabile Spese"
       - name: "Riccardo Pezzetta, Giovanni Pontiroli, Marco Vianello"
         title: "Responsabili Corso di LaTeX" 
+      - name: "Darius Bostan, Francesco La Rovere, Filippo De Marchi"
+        title: "Responsabili evento tesi"
 
   - title: "Esecutivo 2022/2023"
     downloads:
