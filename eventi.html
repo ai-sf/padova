@@ -11,12 +11,12 @@ title: Eventi
   {% for event in section.events %}
     <div class="card">
       {% if event.title %}
-      <div class="card-title" style="padding: 0px 24px 0px 24px;">
+      <div class="card-title" style="padding: 10px 24px 0px 24px;">
         <p>{{ event.title }}</p>
       </div>
       {% endif %}
       {% if event.authors %}
-      <div class="card-content" style="font-style: italic; font-size: 18px;">
+      <div class="card-content" style="font-style: italic; font-size: 18px; padding: 10px 24px 0px 24px;">
         <p>{{ event.authors }}</p>
       </div>
       {% endif %}
