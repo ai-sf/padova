@@ -3,6 +3,9 @@ sections:
     - image: 24-25/doro.jpg
       title: "Aperitivo con Fritz Zwicky: un buffet di astrofisica delle alte energie"
       text: "Questo seminario sarà incentrato sull' astrofisica delle alte energie: verranno presentati i principali strumenti di osservazione e le tematiche scientifiche, con particolare attenzione ai temi di fisica fondamentale e nuova fisica che si possono studiare con questa tecnica. Il seminario sarà tenuto dal professor Michele Doro, docente del DFA di Padova."
+      downloads:
+      - name: "Slides"
+        url: 24-25/doro/doro_2025_spritz_facile.pdf
       
     - image: 24-25/zorzi-mazzucato.jpg
       title: "Nobel Insight"
