@@ -34,7 +34,8 @@ title: Eventi
       {% if event.downloads %}
       {% for file in event.downloads %}
       <div class="card-action">
-        <a class="chip custom2 white-text" href="{{site.url}}/course_materials/{{file.url}}">
+        <a class="chip custom2 white-text" href="{{site.url}}/course_materials/{{file.url}}"
+          style="display: inline-flex; align-items: center; margin:5px 0px;">
           <i class="material-icons" style="margin-left: 0.2em; font-size: 12pt;">file_download</i>
           {{file.name}}
         </a>
