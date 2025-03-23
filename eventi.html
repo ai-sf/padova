@@ -15,6 +15,11 @@ title: Eventi
         <p>{{ event.title }}</p>
       </div>
       {% endif %}
+      {% if event.authors %}
+      <div class="card">
+        <p>{{ event.authors }}</p>
+      </div>
+      {% endif %}
       {% if event.image %}
       <div class="card-image">
         <img src="{{ site.url }}/images/{{ event.image }}">
