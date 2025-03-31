@@ -1,5 +1,13 @@
 sections:
   - events:
+    - image: 24-25/tesi.jpg
+      title: "Tesi ma non troppo"
+      authors: "Darius Bostan, Filippo De Marchi, Francesco La Rovere"
+      text: "\"Tesi ma non troppo\" è un evento di orientamento al percorso di tesi pensato per gli studenti del secondo e del terzo anno della Laurea Triennale in Fisica. L'incontro si articolerà in due momenti: nella prima parte alcuni laureandi esporranno i loro elaborati, mentre nella seconda verranno fornite indicazioni pratiche e consigli utili per affrontare al meglio l'iter burocratico e accademico della tesi."
+      downloads:
+      - name: "Slides"
+        url: 24-25/tesi/tesi_ma_non_troppo.pdf
+
     - image: 24-25/doro.jpg
       title: "Aperitivo con Fritz Zwicky: un buffet di astrofisica delle alte energie"
       authors: "Michele Doro"
