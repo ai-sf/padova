@@ -1,5 +1,10 @@
 sections:
   - events:
+    - image: 24-25/dallagata.jpg
+      title: "Quanti e gravità"
+      authors: "Gianguido Dall'Agata"
+      text: "In questo incontro verrà descritta la storia quasi centenaria dei tentativi di conciliare la teoria dei quanti con la gravità. Verrà mostrato come questa sfida metta in crisi i principi usati finora per descrivere la fisica fondamentale e verranno illustrate alcune recenti prospettive sperimentali per rilevare la natura quantistica della gravità."
+
     - image: 24-25/tesi.jpg
       title: "Tesi ma non troppo"
       authors: "Darius Bostan, Filippo De Marchi, Francesco La Rovere"
