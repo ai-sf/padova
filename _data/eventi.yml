@@ -1,5 +1,10 @@
 sections:
   - events:
+    - image: 24-25/sun.jpg
+      title: "Fantastic X-rays and where to find them"
+      authors: "Peihao Sun"
+      text: "Il talk ripercorre il percorso accademico del relatore, evidenziando le tappe principali che lo hanno portato ad una carriera nel mondo della ricerca scientifica. Il tema centrale riguarda l'utilizzo dei raggi X nello studio dei materiali disordinati, con un focus sull'impiego dei raggi X di sincrotrone e un approfondimento sulla ricerca dedicata ai liquidi e ai vetri."
+
     - image: 24-25/dallagata.jpg
       title: "Quanti e gravità"
       authors: "Gianguido Dall'Agata"
